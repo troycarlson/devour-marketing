@@ -1,0 +1,27 @@
+.btn {
+  background-color: #ddd;
+  border: none;
+  border-bottom: 2px solid #bbb;
+  border-radius: 4px;
+  color: #484848;
+  display: inline-block;
+  font-size: 1.125em;
+  padding: 15px 25px;
+  text-decoration: none;
+  transition: background-color 0.5s ease;
+}
+
+.btn-small {
+  font-size: .8em;
+  padding: 5px 15px;
+}
+
+.btn:hover {
+  background-color: #d3d3d3;
+  cursor: pointer;
+}
+
+.btn:active {
+  border-bottom: 0px;
+  border-top: 2px solid transparent;
+}

@@ -1,0 +1,39 @@
+.landing-page nav {
+  padding: 5px;
+}
+
+.landing-page nav .logo {
+  max-width: 50px;
+}
+
+.landing-page nav .login {
+  float: right;
+  margin: 5px 5px 0 0;
+}
+
+.landing-page .hero {
+  text-align: center;
+}
+
+.landing-page .title {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 100px 0 0 0;
+}
+
+.landing-page .subtitle {
+  font-size: 1.25em;
+  font-weight: 100;
+  margin: 0 auto;
+  max-width: 350px;
+}
+
+.landing-page .cta {
+  display: block;
+  padding: 50px 25px;
+}
+
+.landing-page .device {
+  max-width: 400px;
+
+}
