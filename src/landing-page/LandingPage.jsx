@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, PrimaryButton } from '../shared/components';
-import logo from '../assets/logo-circle.png';
-import device from '../assets/landing-page-device.png';
+import logo from '../shared/images/logo-circle.png';
+import device from '../shared/images/landing-page-device.png';
 import './LandingPage.css';
 
 export default class LandingPage extends Component {
