@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, PrimaryButton } from '../shared/components';
-import logo from '../shared/images/logo-circle.png';
 import device from '../shared/images/landing-page-device.png';
+import appStore from '../shared/images/app-store.png';
 import './LandingPage.css';
 
 export default class LandingPage extends Component {
@@ -9,7 +9,6 @@ export default class LandingPage extends Component {
     return (
       <div className="landing-page">
         <nav>
-          <img className="logo" src={logo} alt="Devour" />
           <Button size="small" className="login" href="https://app.getdevour.com/login">LOG IN</Button>
         </nav>
         <div className="hero">
@@ -24,9 +23,22 @@ export default class LandingPage extends Component {
               GET STARTED
             </PrimaryButton>
           </div>
+        </div>
+        <div className="device">
           <div>
-            <img className="device" src={device} alt="Devour" />
+            <img src={device} alt="Devour" />
           </div>
+          <div className="app-store">
+            Get the app.
+            <a href="https://itunes.apple.com/us/app/devour-meal-planner-tracker/id1378842127?ls=1&mt=8">
+              <img className="app-store" src={appStore} alt="Get Devour on the App Store" />
+            </a>
+          </div>
+        </div>
+        <div className="support">
+          <a href="https://app.getdevour.com/support">
+            Need help?
+          </a>
         </div>
       </div>
     );

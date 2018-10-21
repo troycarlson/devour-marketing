@@ -1,14 +1,11 @@
 .landing-page nav {
-  padding: 5px;
-}
-
-.landing-page nav .logo {
-  max-width: 50px;
+  overflow: hidden;
+  padding: 10px 10px 0 10px;
 }
 
 .landing-page nav .login {
   float: right;
-  margin: 5px 5px 0 0;
+  font-weight: bold;
 }
 
 .landing-page .hero {
@@ -30,10 +27,32 @@
 
 .landing-page .cta {
   display: block;
+  font-weight: bold;
   padding: 50px 25px;
 }
 
 .landing-page .device {
-  max-width: 400px;
+  text-align: center;
+}
 
+.landing-page .device img {
+  max-width: 300px;
+}
+
+.landing-page .app-store {
+  margin: 0 auto 50px auto;
+}
+
+.landing-page .app-store img {
+  display: block;
+  height: 40px;
+}
+
+.landing-page .support {
+  margin: 0 0 50px 0;
+  text-align: center;
+}
+
+.landing-page .support a {
+  color: #674B7C;
 }
